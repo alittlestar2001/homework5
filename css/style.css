@@ -1,0 +1,158 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+p {
+	font-size: 16px;
+}
+
+
+
+
+/*nav選單*/
+.navbar-brand img {
+	height: 50px;
+}	
+
+/*banner*/
+.banner {
+	margin-top: 76px;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+
+
+/*關於我*/
+.about {
+	padding:100px 0;
+	background:linear-gradient(#ffffff,#e3faf7); 
+}
+
+.title {
+	font-size:20px;
+	font-weight: bold;
+}
+
+.title_line {
+	border-color:#ffffff;
+}
+
+.story {
+	padding: 50px 0;
+	font-size: 18px;
+}
+
+.story span {
+	font-style: italic;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.title_line {
+	margin-bottom: 50px;
+}
+
+/*作品集*/
+.portfolio {
+	background-color: #e3faf7;
+	padding-bottom:70px;
+}
+
+.portfolio img {
+	width:100%;
+	margin-bottom:20px;
+}
+
+/*服務*/
+.serve {
+	padding-top:50px;
+	background-color: #e3faf7;
+	padding-bottom:10px;
+}
+
+.serve img {
+	width:100%;
+	left: 50%;
+	right: 50%;
+
+}
+
+
+.serve_name {
+	padding: 100px;
+}
+
+
+/*聯絡我*/
+.contact {
+	height:750px;
+	padding-top: 100px;
+	background: #e3faf7;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+input[type=submit] {
+  background-color: #83a3a1;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+
+/*footer*/
+footer {
+	padding:20px 0; 
+	background-color: #89d9ce;
+}
+
+footer p {
+	line-height: 39px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
